@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: nnproject
+  datasource:
+    url: jdbc:mysql://localhost:3306/cwql?characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      max-wait: 60000
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+
+
+
